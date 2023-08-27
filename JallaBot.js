@@ -29,7 +29,7 @@ function jallaBotResponse () {
 
         case 2:
         response = "SHE";
-        document.getElementById("ratBot").style.fontWeight = "bold";
+        document.getElementById("theRatSpeaks").style.fontWeight = "bold";
         break;
 
         case 3:
