@@ -28,7 +28,7 @@ function jallaBotResponse () {
         break;
 
         case 2:
-        response = "<b> SHE <b>"; 
+        response = "<b> SHE </b>"; 
         break;
 
         case 3:
