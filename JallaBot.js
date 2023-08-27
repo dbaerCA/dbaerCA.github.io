@@ -1,7 +1,6 @@
 function RunHandler() {
     document.getElementById("ratBot").addEventListener("click", jallaBotResponse);
     
-    window.addEventListener("load", loadHandler);
     if (navigator.serviceWorker) {
         window.addEventListener('load', () => {
         navigator.serviceWorker.register("./service_worker.js"
