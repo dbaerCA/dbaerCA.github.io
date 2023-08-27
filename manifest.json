@@ -1,0 +1,30 @@
+{
+    "name": "Homework 4 Baer, Dominik",
+    "short_name": "Jallabot",
+    "start_url": "/~dbaer2/memes/",
+    "background_color": "white",
+    "display": "standalone",
+    "icons": [
+    {
+    "src": "/~dbaer2/homework4/hw4/icons/Icon-38.png",
+    "type": "image/png",
+    "sizes": "38x38"
+    },
+    {
+    "src": "/~dbaer2/homework4/hw4/icons/Icon-57.png",
+    "type": "image/png",
+    "sizes": "57x57"
+    },
+    {
+    "src": "/~dbaer2/homework4/hw4/icons/Icon-115.png",
+    "type": "image/png",
+    "sizes": "115x115"
+    },
+    {
+    "src": "/~dbaer2/homework4/hw4/icons/icon-193.png",
+    "type": "image/png",
+    "sizes": "193x193"
+    }
+    ]
+    }
+    
