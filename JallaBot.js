@@ -15,6 +15,7 @@ function jallaBotResponse () {
 
     // just responds like Jalla. Takes a random number, puts out a random Jalla-esque response
     var numberofResponses = 8; //this val needs to be updated as Jallabot's vocabulary increases
+    document.getElementById("ratBot").style.fontWeight = "normal"; //resets bold responses
     var response = "brokenVal";
     var jallaResponse = Math.floor(Math.random() * numberofResponses);
     switch(jallaResponse) {
@@ -28,7 +29,8 @@ function jallaBotResponse () {
         break;
 
         case 2:
-        response = "<b> SHE </b>"; 
+        response = "SHE";
+        response = document.getElementById("ratBot").style.fontWeight = "bold";
         break;
 
         case 3:
