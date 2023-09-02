@@ -13,48 +13,27 @@ function RunHandler() {
 function jallaBotResponse () {
 
     // just responds like Jalla. Takes a random number, puts out a random Jalla-esque response
-    var numberofResponses = 8; //this val needs to be updated as Jallabot's vocabulary increases
-    document.getElementById("theRatSpeaks").style.fontWeight = "normal"; //resets bold responses
-    var response = "brokenVal";
     var jallaResponse = Math.floor(Math.random() * numberofResponses);
-    switch(jallaResponse) {
-
-        case 0:
-        response = "Me";
-        break;
-
-        case 1:
-        response = "SHE"; 
-        break;
-
-        case 2:
-        response = "SHE";
+    var responses = 
+    ["Me",
+    "SHE",
+    "SHE",
+    "holy shit",
+    "AIFOENBELWHDOWHDKWJ",
+    "LMFAO NOOOO",
+    "HELP",
+    "YEAH",
+    "Flo is a beta bitch boy",
+    "I love my cat Juni, she's perfect",
+    "I'm gonna climb Estinien like a tree" ];
+    var numberofResponses = respones.length;
+    if(jallaResponse === 2) {
         document.getElementById("theRatSpeaks").style.fontWeight = "bold";
-        break;
-
-        case 3:
-        response = "holy shit";
-        break;
-
-        case 4:
-        response = "AIFOENBELWHDOWHDKWJ";
-        break;
-
-        case 5:
-        response = "LMFAO NOOOO";
-        break;
-
-        case 6:
-        response = "HELP";
-        break;
-
-        case 7: 
-        response = "YEAH";
-        break;
-
-        default:
-        console.log("Error, number gen failed");
     }
-    console.log(response);
+    else {
+        document.getElementById("theRatSpeaks").style.fontWeight = "normal";
+    }
+    var response = responses[jallaResponse];
     document.getElementById("theRatSpeaks").innerHTML = response;
+    
 }
